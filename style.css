@@ -1,0 +1,31 @@
+body{
+    background-color: cornflowerblue;
+}
+
+h1{
+    background-color: aliceblue;
+}
+
+p{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: azure;
+}
+
+#showsketch{
+    float: right;
+    margin-right:70px ;
+}
+
+canvas{
+    border: 7px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    animation-name: exampl;
+    animation-duration: 5px;
+    animation-iteration-count: infinite;
+    margin-top: 90px;
+}
+@keyframes exampl{
+    from{box-shadow:1px, 1px, 51px rgb(102, 199, 255)}
+    to{box-shadow: 1px, 1px, 51px rgb(174, 252, 174);}
+}
